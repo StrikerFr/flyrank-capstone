@@ -14,24 +14,41 @@ A modern starter application built with:
 - **Tailwind Setup:** Configured with Tailwind CSS v4 using `@tailwindcss/vite`.
 - **Fast Development:** Instant server start and HMR via Vite.
 
-## Getting Started
+## Project Structure
+```text
+flyrank-capstone/
+├── public/             # Public static assets
+├── src/
+│   ├── assets/         # Images, global styles, etc.
+│   ├── components/     # Reusable React components (e.g., Button)
+│   ├── hooks/          # Custom React hooks
+│   ├── utils/          # Utility and helper functions
+│   ├── App.tsx         # Main application component
+│   ├── index.css       # Global styles (Tailwind v4 imports)
+│   └── main.tsx        # Application entry point
+├── CLAUDE.md           # AI assistant context
+├── eslint.config.js    # ESLint 9 configuration
+└── vite.config.ts      # Vite build configuration
+```
 
-### Install Dependencies
+## Installation
+
+### 1. Install Dependencies
 ```bash
 npm install
 ```
 
-### Run the Development Server
+### 2. Run the Development Server
 ```bash
 npm run dev
 ```
 
-### Build for Production
+### 3. Build for Production
 ```bash
 npm run build
 ```
 
-### Linting
+### 4. Linting
 ```bash
 npm run lint
 ```
